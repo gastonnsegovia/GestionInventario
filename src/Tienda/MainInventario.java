@@ -52,7 +52,7 @@ public class MainInventario {
         Producto copia = productoUno;
         System.out.println("el atributo stock de copia tiene: " + copia.stock);
         copia.reponerStock(10);
-        System.out.println("ahora copia tiene un stock de: " + copia.stock);
-        System.out.println("y productoUno tambien tiene: " + productoUno.stock + " en su stock");
+        System.out.println("ahora el objeto copia tiene un stock de: " + copia.stock);
+        System.out.println("y el objeto productoUno tambien tiene: " + productoUno.stock + " en su stock");
     }
 }
